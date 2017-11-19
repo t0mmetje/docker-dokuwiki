@@ -11,3 +11,7 @@ $conf['license'] = '0';
 $conf['useacl'] = 1;
 $conf['superuser'] = '@admin';
 $conf['disableactions'] = 'register';
+$conf['userewrite'] = 1;
+$conf['useslash'] = 1;
+
+// end auto-generated content
