@@ -44,3 +44,6 @@ RUN apt-get install unzip \
     && rm -rf lib/plugins/authmysql \
     && rm -rf lib/plugins/authpgsql \
     && chown -R www-data:www-data /var/www/html
+
+# Enable volumes for the data/ directory as well as the plugins/ and tpl/ directories.
+VOLUME ["/var/www/html/data/", "/var/www/html/lib/plugins/", "/var/www/html/lib/tpl/"]
