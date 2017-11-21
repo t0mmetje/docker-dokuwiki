@@ -4,7 +4,7 @@
 # DokuWiki 2017-02-19e
 
 FROM php:7.1.11-apache-jessie
-MAINTAINER Tom Marcoen <tom@azmei.org>
+LABEL maintainer="tom@azmei.org"
 
 RUN apt-get update \
     && apt-get upgrade -y
