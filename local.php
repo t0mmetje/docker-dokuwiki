@@ -19,5 +19,7 @@ $conf['superuser'] = '@admin';
 $conf['tpl']['bootstrap3']['fixedTopNavbar'] = 1;
 $conf['tpl']['bootstrap3']['showEditBtn'] = 'logged';
 $conf['tpl']['bootstrap3']['showLandingPage'] = 1;
+$conf['tpl']['bootstrap3']['bootstrapTheme'] = 'bootswatch';
+$conf['tpl']['bootstrap3']['bootswatchTheme'] = 'cerulean';
 
 // end auto-generated content
