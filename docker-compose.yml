@@ -1,0 +1,21 @@
+version: "3"
+services:
+  dokuwiki:
+    image: tommiie/dokuwiki:0.7.1
+    container_name: dokuwiki
+    ports:
+      - "4000:80"
+    networks:
+      - webnet
+    volumes:
+      - dw-conf:/var/www/html/conf
+      - dw-data:/var/www/html/data
+      - dw-plugins:/var/www/html/lib/plugins
+      - dw-tpl:/var/www/html/lib/tpl
+networks:
+  webnet:
+volumes:
+  dw-conf:
+  dw-data:
+  dw-plugins:
+  dw-tpl:

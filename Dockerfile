@@ -46,4 +46,7 @@ RUN apt-get install unzip \
     && chown -R www-data:www-data /var/www/html
 
 # Enable volumes for the data/ directory as well as the plugins/ and tpl/ directories.
-VOLUME ["/var/www/html/data/", "/var/www/html/lib/plugins/", "/var/www/html/lib/tpl/"]
+VOLUME ["/var/www/html/data/", \
+        "/var/www/html/lib/plugins/", \
+        "/var/www/html/lib/tpl/", \
+        "/var/www/html/conf/"]
