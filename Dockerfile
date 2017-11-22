@@ -2,6 +2,7 @@
 # Apache 2.4.10
 # PHP 7.1.11
 # DokuWiki 2017-02-19e
+# Bootstrap3 with Cerulean theme
 
 FROM php:7.1.11-apache-jessie
 LABEL maintainer="tom@azmei.org"
